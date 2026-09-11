@@ -1,0 +1,16 @@
+# Compiled C/C++ files
+*.o
+*.exe
+
+# Build directories
+obj/
+bin/
+
+# Python cache files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor clutter
+.DS_Store
+*~
