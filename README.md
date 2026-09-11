@@ -27,7 +27,7 @@ Further details on the installation of FMM3D can be found at https://fmm3d.readt
 
 To compile the Doppler cooling code, first
 
-    cd ioncrystal
+    cd ion-crystal-doppler-cooling
 
 then 
 
