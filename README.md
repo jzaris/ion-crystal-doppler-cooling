@@ -17,21 +17,21 @@ To compile the code, it is necessary to install the FMM3D library. The Doppler c
 
 Download v1.0.1 of the FMM3D library 
 
-git clone --branch v1.0.1 --depth 1 https://github.com/flatironinstitute/FMM3D.git FMM3D_v1.0.1
+    git clone --branch v1.0.1 --depth 1 https://github.com/flatironinstitute/FMM3D.git FMM3D_v1.0.1
 
 and install using 
 
-make install PREFIX=/path/to/FMM3D_v1.0.1_install FAST_KER=ON
+    make install PREFIX=/path/to/FMM3D_v1.0.1_install FAST_KER=ON
 
 Further details on the installation of FMM3D can be found at https://fmm3d.readthedocs.io/en/latest/
 
 To compile the Doppler cooling code, first
 
-cd ioncrystal
+    cd ioncrystal
 
 then 
 
-make
+    make
 
 ### FMM3D paths
 
@@ -78,7 +78,7 @@ Third-party software included in or used by this project remains subject to its 
 
 ## Acknowledgements
 
-This project builds on ideas and selected routines from the `cold-atoms` project by Wes Lee Johnson and collaborators (https://github.com/WesLeeJohnson/cold-atoms). Portions of that code were adapted and translated from Python to C++.
+This project builds on ideas and selected routines from the `cold-atoms` project (https://github.com/WesLeeJohnson/cold-atoms). Portions of that code were adapted and translated from Python to C++.
 
 Long-range Coulomb calculations use FMM3D / FMM3DPy, developed by the Flatiron Institute FMM3D development team. Users of this repository are encouraged to cite the FMM3D project and associated publications when appropriate.
 
